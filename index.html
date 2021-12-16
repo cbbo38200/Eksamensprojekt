@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="da" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Forside</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+  <header>
+      <nav>
+        <a href="index.html"><img src="billeder/logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">FORSIDE</a></li>
+            <li><a href="ommig.html">OM MIG</a></li>
+            <li><a href="kontakt.html">KONTAKT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    <div class="text-box">
+      <h1>Christian Bonne Bøje</h1>
+      <p>Jeg er multimediedesigner studerende på UCL Erhvervsakademi og Professionshøjskole<br><br>Velkommen til min side</p>
+      <a href="kontakt.html" class="hero-btn">Kontakt mig</a>
+    </div>
+  </header>
+
+  <!--- Kompetencer --->
+  <section class="kompetencer">
+    <h1>Mine færdigheder</h1>
+    <div class="row">
+      <div class="kompetencer-col">
+        <img src="billeder/re-designhjemmeside.png" alt="">
+        <h3>Re-disign Af Hjemmeside</h3>
+      <p>Premier League er en professionel Engelsk fodboldliga. Det er den øverste liga, og er placeret over den næstbedste række The Championship. Der er tyve hold i ligaen. De møder hver modstander to gange i løbet af en sæson: Én gang hjemme og én gang ude. Dvs., at der spilles 38 kampe på én sæson.</p>
+    </div>
+    <div class="kompetencer-col">
+      <img src="billeder/movingart.jpg" alt="">
+      <h3>Moving Art</h3>
+      <p>Premier League er en professionel Engelsk fodboldliga. Det er den øverste liga, og er placeret over den næstbedste række The Championship. Der er tyve hold i ligaen. De møder hver modstander to gange i løbet af en sæson: Én gang hjemme og én gang ude. Dvs., at der spilles 38 kampe på én sæson.</p>
+    </div>
+    <div class="kompetencer-col">
+      <img src="billeder/animate.png" alt="">
+      <h3>Først Animate</h3>
+      <p>Premier League er en professionel Engelsk fodboldliga. Det er den øverste liga, og er placeret over den næstbedste række The Championship. Der er tyve hold i ligaen. De møder hver modstander to gange i løbet af en sæson: Én gang hjemme og én gang ude. Dvs., at der spilles 38 kampe på én sæson.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="kompetencer-col">
+      <img src="billeder/plaktar.png" alt="">
+      <h3>Plaktar</h3>
+      <p>Premier League er en professionel Engelsk fodboldliga. Det er den øverste liga, og er placeret over den næstbedste række The Championship. Der er tyve hold i ligaen. De møder hver modstander to gange i løbet af en sæson: Én gang hjemme og én gang ude. Dvs., at der spilles 38 kampe på én sæson.</p>
+    </div>
+    <div class="kompetencer-col">
+      <img src="billeder/code.jpg" alt="">
+      <h3>Coding</h3>
+      <p>Premier League er en professionel Engelsk fodboldliga. Det er den øverste liga, og er placeret over den næstbedste række The Championship. Der er tyve hold i ligaen. De møder hver modstander to gange i løbet af en sæson: Én gang hjemme og én gang ude. Dvs., at der spilles 38 kampe på én sæson.</p>
+    </div>
+    <div class="kompetencer-col">
+      <img src="billeder/hundeapp.png" alt="">
+      <h3>Hunde App</h3>
+      <p>Premier League er en professionel Engelsk fodboldliga. Det er den øverste liga, og er placeret over den næstbedste række The Championship. Der er tyve hold i ligaen. De møder hver modstander to gange i løbet af en sæson: Én gang hjemme og én gang ude. Dvs., at der spilles 38 kampe på én sæson.</p>
+    </div>
+  </div>
+</section>
+
+<!--- Footer --->
+<footer>
+  <h4>Kontakt</h4>
+  <div class="icons">
+    <p><i class="fa fa-home"></i>Bredgade 10, 5492 Vissenbjerg</p>
+    <p><i class="fa fa-phone"></i>Tlf. +45 27 57 19 30</p>
+    <p><i class="fa fa-envelope-o"></i>cbbo38200@edu.ucl.dk</p>
+  </div>
+</footer>
+
+<!--- JavaScript for Toggle Menu --->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+</script>
+
+  </body>
+</html>
